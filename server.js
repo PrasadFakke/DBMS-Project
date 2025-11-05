@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // ---------- CONNECT DB ----------
-mongoose.connect('mongodb://localhost:27017/movieDB')
+mongoose.connect('mongodb+srv://prasadfakke2006_db_user:oaIreYdWde1tdDYc@projectcluster.i90hmfy.mongodb.net/')
     .then(() => console.log('MongoDB Connected'))
     .catch(err => console.log('MongoDB Error:', err));
 
@@ -275,4 +275,5 @@ app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
     console.log('Open index.html (use Live Server to avoid CORS)');
 });
+
 
