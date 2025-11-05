@@ -7,11 +7,15 @@ const bcrypt    = require('bcryptjs');
 const cors      = require('cors');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+
 const SECRET = 'your_jwt_secret_key_123';
 
 app.use(express.json());
 app.use(cors());
+app.get("/", (req, res) => {
+  res.send("🎬 Movie Booking Backend is Running!");
+});
 
 // ---------- CONNECT DB ----------
 mongoose.connect('mongodb+srv://prasadfakke2006_db_user:oaIreYdWde1tdDYc@projectcluster.i90hmfy.mongodb.net/')
@@ -275,5 +279,6 @@ app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
     console.log('Open index.html (use Live Server to avoid CORS)');
 });
+
 
 
