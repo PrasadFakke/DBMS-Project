@@ -91,9 +91,9 @@ function checkAuth() {
 
 // ---------- MOVIES ----------
 const imageMap = {
-  "Inception": "images/download.jpeg",
-  "Interstellar": "images/71niXI3lxlL._AC_SY679_.jpg",
-  "The Matrix": "images/61OUGpUfAyL._AC_SY679_.jpg"
+  "Inception": "download.jpeg",
+  "Interstellar": "71niXI3lxlL._AC_SY679_.jpg",
+  "The Matrix": "61OUGpUfAyL._AC_SY679_.jpg"
 };
 
 async function loadMovies() {
@@ -336,4 +336,5 @@ document.getElementById('scheduleId').addEventListener('input', () => {
 
 
 // ---------- START ----------
+
 checkAuth();
