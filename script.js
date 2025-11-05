@@ -1,4 +1,4 @@
-const API_URL = 'https://dbms-exp-10.onrender.com';
+const API_URL = 'https://dbms-exp-10.onrender.com/api';
 
 // ---------- ELEMENTS ----------
 const loginPage   = document.getElementById('loginPage');
@@ -338,6 +338,7 @@ document.getElementById('scheduleId').addEventListener('input', () => {
 // ---------- START ----------
 
 checkAuth();
+
 
 
 
