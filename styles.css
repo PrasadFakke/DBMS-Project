@@ -144,6 +144,11 @@ input:focus, select:focus {
   padding-bottom: 10px;
 }
 
+.dashboard-header div h1 {
+  font-size: 1.8em;
+  color: #1e3c72;
+}
+
 section {
   margin-bottom: 25px;
 }
@@ -250,3 +255,4 @@ section {
   margin-bottom: 15px;
   width: 80%;
 }
+
