@@ -144,13 +144,14 @@ input:focus, select:focus {
   padding-bottom: 10px;
 }
 
-.dashboard-header div {
+.sample2 {
  font-weight: bold;
   font-size: 1.6em;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #1e3c72;
+  margin-bottom: 0.2em; 
 }
 
 section {
@@ -259,6 +260,7 @@ section {
   margin-bottom: 15px;
   width: 80%;
 }
+
 
 
 
