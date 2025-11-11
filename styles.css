@@ -145,7 +145,11 @@ input:focus, select:focus {
 }
 
 .dashboard-header div {
-  font-size: 1.8em;
+ font-weight: bold;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #1e3c72;
 }
 
@@ -255,5 +259,6 @@ section {
   margin-bottom: 15px;
   width: 80%;
 }
+
 
 
