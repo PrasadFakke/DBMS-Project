@@ -145,11 +145,7 @@ input:focus, select:focus {
 }
 
 .dashboard-header div {
-  font-weight: bold;
-  font-size: x-large;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.8em;
   color: #1e3c72;
 }
 
