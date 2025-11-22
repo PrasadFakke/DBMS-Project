@@ -207,7 +207,6 @@ app.get('/api/bookings/report', verifyToken, async (req, res) => {
 // === FORCE INSERT DATA (EVEN IF EXISTS) ===
 async function insertSampleData() {
     try {
-        console.log('\n=== FORCING DATA INSERTION ===');
 
         // DELETE ALL DATA FIRST
         await Customer.deleteMany({});
@@ -216,7 +215,7 @@ async function insertSampleData() {
         await Screen.deleteMany({});
         await Schedule.deleteMany({});
         await Booking.deleteMany({});
-        console.log('All collections cleared');
+        
 
         const hash = await bcrypt.hash('password123', 10);
 
@@ -226,7 +225,7 @@ async function insertSampleData() {
             { Cu_ID:2, Cu_Name:'Anita Sharma', Cu_Address:'Mumbai', Cu_Contact:'9123456789', Email:'anita@gmail.com', Password:hash },
             { Cu_ID:3, Cu_Name:'Vikram Singh', Cu_Address:'Delhi', Cu_Contact:'9234567890', Email:'vikram@gmail.com', Password:hash }
         ]);
-        console.log('Customers inserted');
+      
 
         // 2. CINEMAS
         await Cinema.insertMany([
@@ -234,7 +233,7 @@ async function insertSampleData() {
             { Ci_ID:2, Ci_Name:'INOX R-City', Ci_Location:'Ghatkopar', Ci_City:'Mumbai' },
             { Ci_ID:3, Ci_Name:'Cinepolis Viviana', Ci_Location:'Thane', Ci_City:'Mumbai' }
         ]);
-        console.log('Cinemas inserted');
+        
 
         // 3. MOVIES
         await Movie.insertMany([
@@ -242,7 +241,7 @@ async function insertSampleData() {
             { Mo_ID:102, Mo_Title:'The Matrix', Mo_Desc:'A hacker discovers reality is a simulation', Mo_Stars:'Keanu Reeves', Duration:136 },
             { Mo_ID:103, Mo_Title:'Interstellar', Mo_Desc:'A journey through space to save humanity', Mo_Stars:'Matthew McConaughey', Duration:169 }
         ]);
-        console.log('Movies inserted');
+        
 
         // 4. SCREENS
         await Screen.insertMany([
@@ -250,7 +249,7 @@ async function insertSampleData() {
             { Screen_ID:2, Ci_ID:2, Screen_No:1, Capacity:150 },
             { Screen_ID:3, Ci_ID:3, Screen_No:3, Capacity:100 }
         ]);
-        console.log('Screens inserted');
+       
 
         // 5. SCHEDULES
         await Schedule.insertMany([
@@ -258,16 +257,16 @@ async function insertSampleData() {
             { Sch_ID:1002, Mo_ID:102, Screen_ID:2, Show_Time:new Date('2025-08-26T20:00:00'), Price:180 },
             { Sch_ID:1003, Mo_ID:103, Screen_ID:3, Show_Time:new Date('2025-08-27T18:30:00'), Price:220 }
         ]);
-        console.log('Schedules inserted');
+        
 
         // 6. BOOKINGS
         await Booking.insertMany([
             { Bo_ID:5001, Cu_ID:1, Sch_ID:1001, Seats_Booked:2 },
             { Bo_ID:5002, Cu_ID:2, Sch_ID:1002, Seats_Booked:3 }
         ]);
-        console.log('Bookings inserted');
+        
 
-        console.log('ALL DATA INSERTED SUCCESSFULLY!\n');
+       
     } catch (err) {
         console.error('INSERTION FAILED:', err);
     }
@@ -277,7 +276,6 @@ insertSampleData();
 // ---------- START SERVER ----------
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
-    console.log('Open index.html (use Live Server to avoid CORS)');
 });
 
 

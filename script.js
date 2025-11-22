@@ -91,9 +91,9 @@ function checkAuth() {
 
 // ---------- MOVIES ----------
 const imageMap = {
-  "Inception": "download.jpg",
-  "The Matrix": "download (1).jpg",
-  "Interstellar": "download (2).jpg"
+  "Inception": "Inception.jpg",
+  "The Matrix": "Matrix.jpg",
+  "Interstellar": "Interstellar.jpg"
 };
 
 async function loadMovies() {
