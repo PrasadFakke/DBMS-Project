@@ -6,8 +6,16 @@ A responsive movie booking web application developed as part of a DBMS project. 
 
 🌐 https://dbms-project-zeta-rosy.vercel.app/
 
+## 🔑 Demo Login
+
+Use the following credentials to explore the application:
+
+**Email:** `ravi@gmail.com`  
+**Password:** `password123`
+
 ## ✨ Features
 
+- User login with email and password
 - Browse available movies
 - Book movie tickets
 - Responsive user interface
