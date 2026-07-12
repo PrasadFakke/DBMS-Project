@@ -1,6 +1,6 @@
-# 🎬 DBMS-Project: Movie Booking Website
+# 🎬 BookMyShow - Movie Booking Website
 
-A responsive movie booking web application developed as part of a DBMS project. The application allows users to browse movies and book tickets through an interactive interface. The frontend is deployed on Vercel, while the backend is hosted on Render with MongoDB Atlas as the database.
+A full-stack movie booking web application developed as part of a DBMS project. Users can securely log in, browse available movies and shows, book tickets, view their bookings, and access booking reports. The application uses a Node.js backend with MongoDB Atlas for data storage.
 
 ## 🚀 Live Demo
 
@@ -8,19 +8,20 @@ A responsive movie booking web application developed as part of a DBMS project. 
 
 ## 🔑 Demo Login
 
-Use the following credentials to explore the application:
+Use the following credentials to explore the application.
 
-**Email:** `ravi@gmail.com`  
+**Email:** `ravi@gmail.com`
 **Password:** `password123`
 
 ## ✨ Features
 
-- User login with email and password
-- Browse available movies
+- Secure user login with email and password
+- Browse movies and available shows
 - Book movie tickets
+- View and delete bookings
+- Booking reports
 - Responsive user interface
 - MongoDB Atlas integration
-- Node.js & Express.js backend
 
 ## 🛠️ Tech Stack
 
@@ -35,9 +36,11 @@ Use the following credentials to explore the application:
 
 ## 📚 What I Learned
 
-- Building full-stack web applications
-- Connecting frontend with backend APIs
-- Working with MongoDB Atlas
+- Full-stack web development
+- REST API integration
+- MongoDB Atlas database operations
+- User authentication
+- CRUD operations
 - Deploying applications using Vercel and Render
 
 ## 👨‍💻 Author
