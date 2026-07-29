@@ -46,6 +46,7 @@ Use the following credentials to explore the application.
 ## 👨‍💻 Author
 
 **Prasad Fakke**
+
 **Laukik Deshpande**
 
 [LinkedIn](https://www.linkedin.com/in/prasad-fakke-1b49b7353) • [GitHub](https://github.com/PrasadFakke)
