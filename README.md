@@ -51,7 +51,7 @@ Use the following credentials to explore the application.
 
 **Laukik Deshpande**
 
-[LinkedIn](www.linkedin.com/in/laukik-cse) • [GitHub](https://github.com/laukik-26)
+[LinkedIn](https://www.linkedin.com/in/laukik-cse) • [GitHub](https://github.com/laukik-26)
 
 
 
