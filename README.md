@@ -47,6 +47,11 @@ Use the following credentials to explore the application.
 
 **Prasad Fakke**
 
+[LinkedIn](https://www.linkedin.com/in/prasad-fakke-1b49b7353) • [GitHub](https://github.com/PrasadFakke)
+
 **Laukik Deshpande**
 
-[LinkedIn](https://www.linkedin.com/in/prasad-fakke-1b49b7353) • [GitHub](https://github.com/PrasadFakke)
+[LinkedIn](www.linkedin.com/in/laukik-cse) • [GitHub](https://github.com/laukik-26)
+
+
+
